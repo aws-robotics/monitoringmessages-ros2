@@ -1,5 +1,5 @@
 repositories:
-  monitoringmessages-ros2
+  monitoringmessages-ros2:
     type: git
     url: https://github.com/aws-robotics/monitoringmessages-ros2
     version: release-latest
