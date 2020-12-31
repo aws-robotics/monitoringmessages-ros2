@@ -12,10 +12,6 @@ For example, the `MetricData` message corresponds to a [MetricDatum](https://doc
 * GitHub Action Status
      * master: [![Build & Test](https://github.com/aws-robotics/monitoringmessages-ros2/workflows/Build%20&%20Test/badge.svg?branch=master&event=schedule)](https://github.com/aws-robotics/monitoringmessages-ros2/actions?query=workflow%3A"Build+%26+Test"+event%3Aschedule)
      * release-latest: [![Build & Test release-latest](https://github.com/aws-robotics/monitoringmessages-ros2/workflows/Build%20&%20Test%20release-latest/badge.svg?branch=master&event=schedule)](https://github.com/aws-robotics/monitoringmessages-ros2/actions?query=workflow%3A"Build+%26+Test+release-latest"+event%3Aschedule)
-
-
-* Travis CI:
-    * "master" branch [![Build Status](https://travis-ci.org/aws-robotics/monitoringmessages-ros2.svg?branch=master)](https://travis-ci.org/aws-robotics/monitoringmessages-ros2/branches)
 * ROS build farm:
     * ROS Dashing @ u18.04 Bionic **Not Yet Released**
 
