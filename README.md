@@ -1,28 +1,21 @@
 # aws-ros-monitoringmessages-ros2
-**Note: This repository is under active development. The package provided here is a release candidate; the API may change without notice and no support is provided for it at the moment.**
-`ros_monitoring_msgs` package for facilitating the use of monitoring-related AWS cloud services.
 
+## Overview 
 This package primarily provides ROS message types for use with Amazon CloudWatch, and is used by the [cloudwatch_metrics_collector](https://github.com/aws-robotics/cloudwatchmetrics-ros2) node. 
 For example, the `MetricData` message corresponds to a [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html), and the `MetricDimension` to [Dimension](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Dimension.html). 
+
+### License
+The source code is released under an [Apache 2.0](https://aws.amazon.com/apache-2-0/).
+
+**Author**: AWS RoboMaker<br/>
+**Affiliation**: [Amazon Web Services (AWS)](https://aws.amazon.com/)<br/>
+
+RoboMaker cloud extensions rely on third-party software licensed under open-source licenses and are provided for demonstration purposes only. Incorporation or use of RoboMaker cloud extensions in connection with your production workloads or commercial product(s) or devices may affect your legal rights or obligations under the applicable open-source licenses. License information for this repository can be found [here](https://github.com/aws-robotics/monitoringmessages-ros2/blob/master/LICENSE). AWS does not provide support for this cloud extension. You are solely responsible for how you configure, deploy, and maintain this cloud extension in your workloads or commercial product(s) or devices.
 
 ### Supported ROS Distributions
 * Dashing 
 
-### Build status
-* GitHub Action Status
-     * master: [![Build & Test](https://github.com/aws-robotics/monitoringmessages-ros2/workflows/Build%20&%20Test/badge.svg?branch=master&event=schedule)](https://github.com/aws-robotics/monitoringmessages-ros2/actions?query=workflow%3A"Build+%26+Test"+event%3Aschedule)
-     * release-latest: [![Build & Test release-latest](https://github.com/aws-robotics/monitoringmessages-ros2/workflows/Build%20&%20Test%20release-latest/badge.svg?branch=master&event=schedule)](https://github.com/aws-robotics/monitoringmessages-ros2/actions?query=workflow%3A"Build+%26+Test+release-latest"+event%3Aschedule)
-* ROS build farm:
-    * ROS Dashing @ u18.04 Bionic **Not Yet Released**
-
 ## Installation
-
-### Binaries
-**Binaries not yet available in apt**
-On Ubuntu you can install the latest version of this package using the following command
-
-        sudo apt-get update
-        sudo apt-get install -y ros-$ROS_DISTRO-ros-monitoring-msgs
 
 ### Building from Source
 
